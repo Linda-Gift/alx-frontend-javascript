@@ -1,7 +1,3 @@
-export default function returnHowManyArguments(...args) {
-  let len = 0;
-  for(const arg of args) {
-    len++;
-  }
-  return len; 
+export default function returnHowManyArguments(...args) { 
+  return args.length; 
 }
