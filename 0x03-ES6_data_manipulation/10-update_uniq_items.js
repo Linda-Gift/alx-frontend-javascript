@@ -11,3 +11,5 @@ const updateUniqueItems = (groceries) => {
 
   return groceries;
 };
+
+export default updateUniqueItems;
